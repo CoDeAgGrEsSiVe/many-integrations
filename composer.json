@@ -1,0 +1,36 @@
+{
+    "name": "apiprods/many-integrations",
+    "description": "A library containing many third parties api integrations",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": "^7.2.5 || ^8.2",
+        "php-http/guzzle7-adapter": "^1.0",
+        "guzzlehttp/guzzle": "^7.9"
+    },
+    "require-dev": {
+        "php": "^7.2.5 || ^8.2",
+        "guzzlehttp/guzzle": "^7.9",
+        "php-http/guzzle7-adapter": "^1.0",
+        "pestphp/pest": "^2.35",
+        "mockery/mockery": "^1.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "ApiProds\\ManyIntegrations\\": "src/"
+        }
+    },
+    "authors": [{
+        "name": "Ikechukwu Akandu",
+        "email": "akanduikechukwu9@gmail.com"
+    }],
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true,
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
